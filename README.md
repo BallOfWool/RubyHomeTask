@@ -10,4 +10,5 @@ How to run Task #1:
   
   
 How to run Task #2:
+- To run the file, type in Terminal:
   `ruby script.rb`
