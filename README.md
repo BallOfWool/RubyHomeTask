@@ -7,8 +7,4 @@ How to run Task #1:
 
 - To run the ruby file, type in Terminal:
   `ruby script.rb`
-  
-  
-How to run Task #2:
-- To run the file, type in Terminal:
-  `ruby script.rb`
+
