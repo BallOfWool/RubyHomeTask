@@ -1,0 +1,14 @@
+require 'fileutils'
+
+task :default do
+  puts "Hello!"
+end
+
+task :cleanup, [:path] do |t, args|
+  if args[:path]
+    FileUtils.rm_f Dir.glob(%W[#{args[:path]}*.md #{args[:path]}*.html])
+  else
+    FileUtils.rm_f Dir.glob(%w[build/*.md build/*.html])
+  end
+  puts "Done"
+end
